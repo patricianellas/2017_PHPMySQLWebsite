@@ -1,0 +1,379 @@
+/*-- Student Name = Patricia Nellas-----------
+-----Student ID = 21503005--------------------
+-----Class = IT6x30---------------------------
+-----Tutor = Iwan Tjhin----------------------*/
+/* top nav */
+div.top {
+	background-color: black;
+	height: 5em;
+	overflow: hidden;
+}
+/* center content */
+div.content {
+	margin: 0;
+	padding: 0;
+	margin-left: 10em;
+	margin-right: 10em;
+	text-align: justify;
+	font-weight:bold;
+}
+/* div content for about */
+div.about {
+	margin: 0;
+	padding: 0;
+	margin-left: 10em;
+	margin-right: 10em;
+	text-align: justify;
+	font-weight:bold;
+	background-color:black;
+}
+/* div for contact form */
+div.contact {
+	margin: 0;
+	padding: 0;
+	margin-top: 5em;
+	margin-left: 35em;
+	margin-right: 35em;
+	text-align: justify;
+	font-weight:bold;
+	background-color:black;
+}
+/* div for type content */
+div.typecontent {
+	margin: 0;
+	padding: 0;
+	margin-top: -38;
+	margin-left: 5em;
+	margin-right: 3em;
+	text-align: justify;
+	font-weight:bold;
+	background-color:black;
+
+	height: 100%;
+}
+/* div for occasion content */
+div.occasioncontent {
+	margin: 0;
+	padding: 0;
+	margin-left: 10em;
+	margin-right: 10em;
+	text-align: justify;
+	font-weight:bold;
+	background-color:black;
+	height: 100%;
+	width: 1000px;
+}
+/* text customization */
+p.title {
+	font-size: 200%;
+	color: white;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 3px;
+	font-family: impact;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+	text-align: center;
+    text-decoration: none;
+	margin-left: 2em;
+}
+/*paragraph*/
+p.admin {
+	font-size: 120%;
+	color: white;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 3px;
+}
+/*paragraph*/
+p.name {
+	margin-top:1em;
+	padding: 0.75cm;
+	font-size: 450%;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	letter-spacing: 3px;
+	text-align: center;
+	
+	font-family: "Brush Script MT", cursive;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+}
+/*paragraph*/
+p.message {
+	font-size: 150%;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	letter-spacing: 3px;
+	text-align: center;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 3px;
+	margin-top: 4em;
+}
+/*paragraph*/
+p.about {
+	padding: 0.55cm;
+	font-size: 110%;
+	color: white;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+}
+/*paragraph*/
+p.typecontent {
+	padding: 0.55cm;
+	font-size: 90%;
+	color: white;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 1px;
+	text-align: left;
+	text-shadow: 2px 2px 4px #000000;
+	margin-right: 0.5em;
+	margin-top: 1em;
+}
+/*paragraph*/
+.typecontent {
+	padding: 0.55cm;
+	font-size: 110%;
+	color: white;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+	margin-right: 12em;
+	margin-top: 2em;
+}
+/* table customization */
+table.occasion {
+	margin-top: 4em;
+	color: white;
+	width: 80%;
+	text-align: left;
+}
+
+/*form*/
+p.contactform {
+	margin-top: 1em;
+	padding: 2;
+	font-size: 110%;
+	color: white;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+}
+/* form customization */
+input.submit {
+	font-size: 110%;
+	color: black;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 1em;
+}.
+/*input*/
+input.textbox {
+	width:200px;
+}
+
+/*input*/
+textarea {
+   resize: none;
+   width: 200px;
+}
+/*body*/
+body.main { 
+    margin:0;
+	background-color: white;
+	background-size: cover;
+    background-position: center;
+	overflow: hidden;
+	height: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*body*/
+body.lookup { 
+    margin:0;
+	background-color: black;
+	background-size: cover;
+    background-position: center;
+	/*overflow: hidden;
+	height: 100%;*/
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a.left {
+	font-family: impact;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 25px;
+	letter-spacing: 3px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a.right {
+	font-family: impact;
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 25px;
+	letter-spacing: 3px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: gray;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table.maintable {
+	margin-top: 4em;
+	border: 1px solid black;
+	background: black;
+}
+
+.inblock {
+	margin-top: 10em;
+	background: black;
+	display: inline-block;
+	text-align: center;
+	margin: 60px;
+	
+	font-size: 20px;
+	background: white;
+}
+
+tr.space {
+	height: 20;
+}
+td.image {
+	width: 100px;
+	height: 100px;
+}
+
+td.description {
+	width: 200px;
+	height: 100px;
+	color:white;
+	text-decoration: none;
+	font-size: 110%;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+td.querydesc {
+	width: 200px;
+	height: 100px;
+	color:black;
+	text-decoration: none;
+	font-size: 110%;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+	background: white;
+}
+div.admincontent {
+	margin-left: 15%;
+	padding: 1px 16px;
+	height: 1000px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+a.link {
+	text-decoration: none;
+	color:white;
+}
+a.menu {
+	text-decoration: none;
+	color:black;
+}
+a.menu:hover{
+	color:red;
+}
+ul {
+    list-style-type: none;
+	font-size: 120%;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 13px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+tr.space {
+	height: 20;
+}
+
+
+td.admintitle {
+	width: 200px;
+	height: 50px;
+	text-align:left;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 1px;
+}
+
+td.admintextbox {
+	width: 300px;
+	height: 50px;
+	color:white;
+	font-size: 110%;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: center;
+}
+
+input.admintextbox {
+	width: 100% !important;
+}
+input.adminbutton {
+	width: 50%;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+input.occasionbutton {
+	width: 50%;
+	text-align: center;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	float: right;
+}
